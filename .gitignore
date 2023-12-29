@@ -1,0 +1,49 @@
+# Ignore system files
+*.DS_Store
+Thumbs.db
+
+# Ignore backup and temporary files
+*.bak
+*.swp
+*~
+
+# Ignore WordPress core files
+wordpress/wp-admin/
+wordpress/wp-includes/
+wordpress/wp-content/advanced-cache.php
+wordpress/wp-content/backup-db/
+wordpress/wp-content/backups/
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/uploads/
+
+# Ignore configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore log files
+error_log
+debug.log
+
+# Ignore node_modules and vendor directories if you're using Composer or npm
+node_modules/
+vendor/
+
+# Ignore local development configuration
+wp-config-local.php
+
+# Ignore environment-specific configuration
+.env
+
+# Ignore IDE and editor configuration files
+.idea/
+.vscode/
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore PHPUnit configuration
+phpunit.xml
+
+# Ignore deployment configuration
+deploy-config.json
