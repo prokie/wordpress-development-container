@@ -10,7 +10,7 @@
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"
     },
-    "extensions": ["esbenp.prettier-vscode"]
+    "extensions": ["esbenp.prettier-vscode","ms-azuretools.vscode-docker"]
   },
   // Use 'appPort' to create a container with published ports. If the port isn't working, be sure
   // your server accepts connections from all interfaces (0.0.0.0 or '*'), not just localhost.
@@ -18,7 +18,7 @@
   // Uncomment the next line to run commands after the container is created.
   // "postCreateCommand": "php -v",
   // Comment out if you want to use root
-  "postCreateCommand": ".devcontainer/wp-setup.sh",
-  "remoteUser": "vscode",
+  // "postCreateCommand": ".devcontainer/wp-setup.sh",
+  "remoteUser": "vscode"
   // Add the IDs of extensions you want installed when the container is created in the array below.
 }
